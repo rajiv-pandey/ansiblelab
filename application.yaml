@@ -3,7 +3,7 @@
   tasks:
   - name: upload file to traget server
     copy: 
-      src: /root/playbooks/program.sh
+      src: program.sh
       dest: /home/ansible/program.sh
       mode: 0755
   - name: Modify content of the file
